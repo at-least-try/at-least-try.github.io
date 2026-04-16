@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>at-least-try | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of a University of Toronto CS student building useful software for real-world problems."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="matrix-bg" aria-hidden="true"></div>
+    <header class="site-header glass">
+      <a class="brand" href="#top">at-least-try</a>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">University of Toronto · Computer Science</p>
+          <h1>Building software for real-world friction.</h1>
+          <p>
+            I build products I personally find valuable. I focus on real pain points,
+            thoughtful systems, and practical software that people can use every day.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-ghost" href="#roadmap">Implementation Batches</a>
+          </div>
+        </div>
+
+        <div class="bot-stage" aria-label="Interactive matrix bot avatar">
+          <div class="bot" id="bot">
+            <div class="bot-antenna"></div>
+            <div class="bot-head">
+              <div class="visor">
+                <div class="eye eye-left"></div>
+                <div class="eye eye-right"></div>
+              </div>
+            </div>
+            <div class="bot-body">
+              <div class="bot-core"></div>
+            </div>
+            <div class="arm arm-left"><span></span></div>
+            <div class="arm arm-right"><span></span></div>
+          </div>
+          <p class="bot-caption mono">matrix-bot // online</p>
+        </div>
+      </section>
+
+      <section class="spark reveal">
+        <h2>The Spark</h2>
+        <p>
+          During a morning jog, my backpack kept bouncing and hitting my back. I kept
+          thinking: there has to be a better design for this. Later, I found a company
+          solving the exact same problem. That moment shaped how I think — useful ideas
+          hide inside everyday frustration.
+        </p>
+      </section>
+
+      <section id="projects" class="reveal">
+        <div class="section-heading">
+          <h2>Featured Projects</h2>
+          <p>Products in development, built around real use-cases.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Ripple <span class="status status-late">90% · Polishing</span></h3>
+            <p>
+              Event discovery app with Tinder-style filtering to quickly find relevant
+              nearby events and fit them into your schedule.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <h3>Life OS <span class="status">Private · Active</span></h3>
+            <p>
+              A personal second-brain system to manage projects, tasks, routines,
+              and knowledge in one private operating system.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <h3>Life Admin <span class="status status-early">20% · Early Dev</span></h3>
+            <p>
+              Deadline-focused life administration software for renewals, taxes,
+              subscriptions, and recurring documents.
+            </p>
+            <a href="https://github.com/at-least-try/app/tree/main" target="_blank" rel="noreferrer">GitHub →</a>
+          </article>
+
+          <article class="project-card">
+            <h3>Rail-Map Maker <span class="status status-early">30% · Early Dev</span></h3>
+            <p>
+              Free open-source software for creating realistic metro maps with better
+              control and visual consistency.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <h3>FM Companion <span class="status">Planning</span></h3>
+            <p>
+              Companion app for Football Manager to track narrative, tactics, transfers,
+              player notes, and strategy decisions.
+            </p>
+            <a href="https://github.com/at-least-try/fm_companion" target="_blank" rel="noreferrer">GitHub →</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="reveal">
+        <div class="section-heading">
+          <h2>Skills</h2>
+          <p>Technical + creative capabilities.</p>
+        </div>
+
+        <div class="skill-columns">
+          <div class="skill-box">
+            <h3>Technical</h3>
+            <ul>
+              <li><strong>Languages:</strong> Python, JavaScript, Java, Swift, HTML, Bash</li>
+              <li><strong>Developing:</strong> C, SQL, Kotlin</li>
+              <li><strong>Frameworks:</strong> React, Vue, Node.js, Pandas</li>
+              <li><strong>Tools:</strong> Firebase, Docker</li>
+              <li><strong>Focus:</strong> LLM apps, machine learning, databases</li>
+            </ul>
+          </div>
+          <div class="skill-box">
+            <h3>Creative & Cross-Disciplinary</h3>
+            <ul>
+              <li>Music production (DAW + VST workflow)</li>
+              <li>Graphic design (Photoshop, Illustrator, Affinity, Figma, Penpot)</li>
+              <li>Video editing & filmography (CapCut/social content)</li>
+              <li>3D modeling (Blender)</li>
+              <li>Photography (Fujifilm XT-5)</li>
+              <li>Stock trading & financial analysis (2 years)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="roadmap" class="reveal">
+        <div class="section-heading">
+          <h2>Implementation Batches</h2>
+          <p>How we ship this portfolio in controlled phases.</p>
+        </div>
+        <ol class="batch-list">
+          <li><strong>Batch 1 (Done):</strong> Foundation layout + brand direction + dark visual system.</li>
+          <li><strong>Batch 2 (Done):</strong> Core sections, project cards, skill taxonomy, and reveal animations.</li>
+          <li><strong>Batch 3 (Done):</strong> Native scroll-timed reveal choreography + advanced hover interactions.</li>
+          <li><strong>Batch 4:</strong> Upgrade bot into richer SVG/Canvas character with modular arm interactions.</li>
+          <li><strong>Batch 5:</strong> Case-study pages, performance tuning, analytics, and SEO pass.</li>
+        </ol>
+
+        <div class="idea-wall">
+          <h3>Next Cool Ideas</h3>
+          <ul>
+            <li>Terminal command palette (`/projects`, `/about`, `/contact`).</li>
+            <li>“System health” HUD for your current build focus and learning metrics.</li>
+            <li>Interactive constellation graph linking projects to skills used.</li>
+            <li>Mini “lab mode” where cards become draggable modules.</li>
+            <li>Night shift mode toggle with alternate neon palette.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="reveal contact">
+        <h2>Let’s Build Something Useful</h2>
+        <p>If you’re building real-world software and need a thoughtful developer, let’s talk.</p>
+        <a class="btn btn-primary" href="https://github.com/at-least-try" target="_blank" rel="noreferrer">GitHub Profile</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>Designed and built by at-least-try · Matrix bot v1</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
